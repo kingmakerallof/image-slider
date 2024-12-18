@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 09 : Image-Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card-left">
+            <div class="main-image">
+                <img src="image/1.jpg">
+                <img src="image/2.jpg">
+                <img src="image/3.jpg">
+                <img src="image/4.jpg">
+                <img src="image/5.jpg">
+                <img src="image/6.jpg">
+            </div>
+
+            <div class="img-select">
+                <div class="img active">
+                    <a href="#" data-id="1"><img src="image/1.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="2"><img src="image/2.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="3"><img src="image/3.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="4"><img src="image/4.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="5"><img src="image/5.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="6"><img src="image/6.jpg"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-right">
+            <h2>AKASO Brave 7 LE Action Camera</h2>
+
+            <h4>₹12,599/- <span>15,499/-</span></h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur debitis rem, iste cum
+                fugiat numquam. Recusandae, similique? Nisi sequi molestias cupiditate quae amet. Harum rem illum,
+                obcaecati quae temporibus accusantium nisi molestiae pariatur.</p>
+
+            <div class="form">
+                <div class="form-group">
+                    <label>Color</label>
+                    <select>
+                        <option>Black</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Qty</label>
+                    <div class="input-group">
+                        <button class="minus">-</button>
+                        <input type="text" value="1" id="qty">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-cart">Add Cart</button>
+            <button class="btn-cart">Buy Now</button>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
